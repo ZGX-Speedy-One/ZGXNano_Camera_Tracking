@@ -1,0 +1,12 @@
+# 1️⃣ Create & activate an isolated Python 3 env (optional but recommended)
+python3 -m venv venv && source venv/bin/activate
+
+# 2️⃣ Install the two required libraries
+python3 -m pip install --upgrade pip
+python3 -m pip install ultralytics opencv-python   # installs both YOLO and OpenCV
+
+# 3️⃣ Run the script
+python3 live_yolo.py        # <-- or whatever you named the file
+
+
+
