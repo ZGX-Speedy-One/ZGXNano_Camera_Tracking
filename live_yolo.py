@@ -153,7 +153,7 @@ while True:
     results = model.track(
         frame_up,                     # up‑scaled image – you can also feed the raw frame
         persist=True,
-        tracker="bytetrack.yaml"        # BoT‑SORT configuration file (bundled with YOLO)
+        tracker="botsort.yaml"        # BoT‑SORT configuration file (bundled with YOLO)
     )
 
     # ---- draw boxes + IDs on that same picture ----------------------------
