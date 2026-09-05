@@ -9,7 +9,7 @@ instructions:
 
 copy the live_yolo.py onto your system
 
-> [!NOTE]
+```bash
 > ### How to run the tool locally
 > run the following lines in CLI / Terminal. 2nd point optional after 1st run.
 >
@@ -23,6 +23,7 @@ copy the live_yolo.py onto your system
 > # 3️⃣ Run the script
 > python3 live_yolo.py        # <-- or whatever you named the file
 >
+```
 
 
 exit object detection by pressing "q" for quit
