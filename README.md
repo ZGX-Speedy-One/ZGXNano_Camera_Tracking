@@ -24,6 +24,8 @@ copy the live_yolo.py onto your system
 > python3 live_yolo.py        # <-- or whatever you named the file
 >
 
+
+exit object detection by pressing "q" for quit
 exit object detection with CTRL-c 
 
 exit venv with "exit" or closing the terminal 
