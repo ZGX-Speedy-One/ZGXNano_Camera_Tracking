@@ -6,13 +6,13 @@ Made the window the video is shown in resizable.
 
 instructions:
 
+copy/download the live_yolo.py onto your system
 
-copy the live_yolo.py onto your system
+### How to run the tool locally
+
+run the following lines in CLI / Terminal. 2nd point optional after 1st run.
 
 ```bash
-> ### How to run the tool locally
-> run the following lines in CLI / Terminal. 2nd point optional after 1st run.
->
 > # 1️⃣ Create & activate an isolated Python 3 env (optional but recommended)
 > python3 -m venv venv && source venv/bin/activate
 > 
