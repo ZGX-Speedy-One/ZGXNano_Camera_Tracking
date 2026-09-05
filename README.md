@@ -4,10 +4,15 @@ Used Ultralytics YOLO26 to capture the video stream from an external camera.
 
 Made the window the video is shown in resizable. 
 
+instructions:
+
+
 copy the live_yolo.py onto your system
 
-run the following lines in a CLI. 2nd point optional after 1st run.
-
+> [!NOTE]
+> ### How to run the tool locally
+> run the following lines in CLI / Terminal. 2nd point optional after 1st run.
+>
 > # 1️⃣ Create & activate an isolated Python 3 env (optional but recommended)
 > python3 -m venv venv && source venv/bin/activate
 > 
@@ -17,7 +22,7 @@ run the following lines in a CLI. 2nd point optional after 1st run.
 > 
 > # 3️⃣ Run the script
 > python3 live_yolo.py        # <-- or whatever you named the file
-
+>
 
 exit object detection with CTRL-c 
 
