@@ -13,16 +13,15 @@ copy/download the live_yolo.py onto your system
 run the following lines in CLI / Terminal. 2nd point optional after 1st run.
 
 ```bash
-> # 1️⃣ Create & activate an isolated Python 3 env (optional but recommended)
-> python3 -m venv venv && source venv/bin/activate
-> 
-> # 2️⃣ Install the two required libraries
-> python3 -m pip install --upgrade pip
-> python3 -m pip install ultralytics opencv-python   # installs both YOLO and OpenCV
-> 
-> # 3️⃣ Run the script
-> python3 live_yolo.py        # <-- or whatever you named the file
->
+# 1️⃣ Create & activate an isolated Python 3 env (optional but recommended)
+python3 -m venv venv && source venv/bin/activate
+
+# 2️⃣ Install the two required libraries
+python3 -m pip install --upgrade pip
+python3 -m pip install ultralytics opencv-python   # installs both YOLO and OpenCV
+
+# 3️⃣ Run the script
+python3 live_yolo.py        # <-- or whatever you named the file
 ```
 
 
@@ -30,5 +29,6 @@ exit object detection by pressing "q" for quit
 exit object detection with CTRL-c 
 
 exit venv with "exit" or closing the terminal 
+
 
 have fun.
